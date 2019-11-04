@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.8" group="jshoppingadmin" method="upgrade">
+	<name>PLG_JSHOPPINGADMIN_SWEETENER_TWEAK</name>
+	<creationDate>04.11.2019</creationDate>
+	<author>Artem Vasilev</author>
+	<authorEmail>kern.usr@gmail.com</authorEmail>
+	<authorUrl>https://webmasterskaya.xyz</authorUrl>
+	<copyright>Copyright (C) 2019 Artem Vasilev. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>PLG_JSHOPPINGADMIN_SWEETENER_TWEAK_XML_DESCRIPTION</description>
+
+	<!-- Language files -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_jshoppingadmin_sweetener_tweak.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_jshoppingadmin_sweetener_tweak.sys.ini</language>
+		<language tag="ru-RU">en-GB/ru-RU.plg_jshoppingadmin_sweetener_tweak.ini</language>
+		<language tag="ru-RU">en-GB/ru-RU.plg_jshoppingadmin_sweetener_tweak.sys.ini</language>
+	</languages>
+
+	<!-- Plugin files -->
+	<files>
+		<filename plugin="sweetener_tweak">sweetener_tweak.php</filename>
+		<folder>language</folder>
+	</files>
+
+	<!-- Update servers -->
+	<updateservers>
+		<server type="extension" priority="1" name="sweetener">https://webmasterskaya.xyz/updates/plg_jshoppingadmin_sweetener_tweak.xml</server>
+	</updateservers>
+</extension>
