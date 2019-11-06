@@ -14,8 +14,8 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.plg_jshoppingadmin_sweetener_tweak.ini</language>
 		<language tag="en-GB">en-GB/en-GB.plg_jshoppingadmin_sweetener_tweak.sys.ini</language>
-		<language tag="ru-RU">en-GB/ru-RU.plg_jshoppingadmin_sweetener_tweak.ini</language>
-		<language tag="ru-RU">en-GB/ru-RU.plg_jshoppingadmin_sweetener_tweak.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_jshoppingadmin_sweetener_tweak.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_jshoppingadmin_sweetener_tweak.sys.ini</language>
 	</languages>
 
 	<!-- Plugin files -->
